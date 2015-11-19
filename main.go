@@ -6,7 +6,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/geetarista/vindinium-starter-go/vindinium"
+	"github.com/mrap/vindinium-starter-go/vindinium"
 )
 
 var (

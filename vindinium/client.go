@@ -48,6 +48,8 @@ func (c *Client) Setup() {
 	switch c.BotName {
 	case "fighter":
 		c.Bot = &FighterBot{}
+	case "naive":
+		c.Bot = &NaiveBot{}
 	default:
 		c.Bot = &RandomBot{}
 	}

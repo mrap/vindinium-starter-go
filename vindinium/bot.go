@@ -29,3 +29,11 @@ func (b *FighterBot) Move(state *State) Direction {
 	// Do something awesome
 	return randDir()
 }
+
+type NaiveBot struct{}
+
+func (b *NaiveBot) Move(state *State) Direction {
+	// g := NewGame(state)
+	// Do something awesome
+	return randDir()
+}
